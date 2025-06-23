@@ -30,7 +30,8 @@
 #    https://cloud.google.com/iam/docs/manage-access-other-resources
 #
 # 5. Change the values in the "env" block to match your values.
-
+- name: Import GPG
+  uses: crazy-max/ghaction-import-gpg@v6.3.0
 name: 'Build and Deploy to GKE'
 
 on:
